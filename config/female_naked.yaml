@@ -1,0 +1,12 @@
+dataset:
+  path: "D:/bfp/Training/orig_data"
+  prefixes: ["VS_F", "TS_F"]      # 여성 데이터셋 접두어
+  image_pattern: "03_*_*.jpg"     # 전체 옷 (naked만 원하면 "03_01_*.jpg")
+  allowed_suffixes: ["03"]        # 허용 suffix 리스트
+
+train:
+  save_dir: "female_model"
+  epochs: 500
+  batch_size: 256
+  lr: 0.0001
+  num_workers: 4
