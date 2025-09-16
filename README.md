@@ -1,19 +1,4 @@
 # BodyFatPercentage
 
-Robust Body Fat Percentage (BFP) estimation framework using deep learning with clothing-invariant body shape features.  
-This repository provides the code, models, and examples for training and evaluating BFP estimation systems that remain robust under diverse clothing conditions.
-
----
-
-## 🔍 Overview
-Estimating Body Fat Percentage (BFP) from visual data is challenging due to clothing variations such as loose garments, thick jackets, or sportswear.  
-Our framework leverages:
-- **Clothing-invariant body embeddings**
-- **Domain-adversarial training (GRL)**
-- **Feature alignment loss**
-
-to achieve robust estimation across apparel domains.
-
----
-
-## 📂 Project Structure
+의복 변화에 강인한 체지방률(Body Fat Percentage, BFP) 추정 프레임워크  
+이 저장소는 다양한 옷차림에서도 안정적인 체지방률 추정을 목표로 한 딥러닝 기반 연구 코드와 예제를 제공합니다.
